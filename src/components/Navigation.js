@@ -8,7 +8,7 @@ function Navigation() {
     <nav className="main-nav">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <img src="/images/ja_logo.png" alt="Joshua Agyekum" className="logo-img" />
+          <img src={`${process.env.PUBLIC_URL}/images/ja_logo.png`} alt="Joshua Agyekum" className="logo-img" />
         </Link>
         <ul className="nav-links">
           <li><Link to="/" className={location.pathname === '/' ? 'active' : ''}>About Me</Link></li>

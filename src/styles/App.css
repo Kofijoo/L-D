@@ -178,6 +178,95 @@ body {
   line-height: 1.8;
 }
 
+/* Featured Presentation */
+.featured-presentation {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 3rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 3rem;
+  border-radius: 12px;
+  margin: 3rem 0;
+  align-items: center;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+}
+
+.presentation-thumbnail {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.presentation-thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.presentation-content {
+  color: #ffffff;
+}
+
+.presentation-content h2 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.presentation-subtitle {
+  color: #ffd700;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.presentation-description {
+  color: #ffffff;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+}
+
+.presentation-button {
+  display: inline-block;
+  background: #ffffff;
+  color: #667eea;
+  padding: 1rem 2.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+  background: #ffd700;
+  color: #2c3e50;
+}
+
+.section-divider {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin: 4rem 0 2rem;
+  position: relative;
+}
+
+.section-divider:after {
+  content: '';
+  display: block;
+  width: 100px;
+  height: 3px;
+  background: #667eea;
+  margin: 1rem auto 0;
+  border-radius: 2px;
+}
+
 /* Projects Grid */
 .projects-grid {
   display: grid;
@@ -632,6 +721,20 @@ body {
   .page-title {
     font-size: 2rem;
   }
+  
+  .featured-presentation {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .presentation-thumbnail {
+    height: 250px;
+  }
+  
+  .presentation-content h2 {
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -675,6 +778,22 @@ body {
   
   .contact-grid {
     grid-template-columns: 1fr;
+  }
+  
+  .featured-presentation {
+    padding: 1.5rem;
+  }
+  
+  .presentation-thumbnail {
+    height: 200px;
+  }
+  
+  .presentation-content h2 {
+    font-size: 1.4rem;
+  }
+  
+  .presentation-description {
+    font-size: 0.95rem;
   }
 }
 

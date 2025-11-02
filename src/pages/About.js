@@ -5,7 +5,7 @@ function About() {
     <section className="about-hero">
       <div className="about-container">
         <div className="about-photo">
-          <img src="/images/profile_photo.png" alt="Joshua Agyekum" />
+          <img src={`${process.env.PUBLIC_URL}/images/profile_photo.png`} alt="Joshua Agyekum" />
         </div>
         <div className="about-content">
           <h1>Joshua Agyekum</h1>
