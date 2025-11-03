@@ -29,6 +29,20 @@ function Projects() {
       description: "Professional AI-adaptive learning game featuring interactive floating island adventures across 6 subjects: Fractions, Vocabulary, Geometry, Arithmetic, Logic, and Science. Built with React, includes adaptive difficulty, progressive hints with audio feedback, teacher dashboard with real-time analytics, and full SCORM/xAPI compatibility for LMS deployment.",
       thumbnail: `${process.env.PUBLIC_URL}/images/learning_island.png`,
       link: "https://kofijoo.github.io/kid_game.github.io/"
+    },
+    {
+      title: "Successive Approximation Model (SAM) in Instructional Design",
+      subtitle: "Interactive PowerPoint Presentation",
+      description: "A concise, visually structured PowerPoint presentation exploring the SAM methodology using Section Zoom features and animations. Demonstrates how PowerPoint can be leveraged as a powerful design tool for creating dynamic, interactive learning experiences beyond traditional slide decks.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/sam.png`,
+      link: "https://www.linkedin.com/posts/joshua-agyekum_instructionaldesign-sam-learningdesign-activity-7387115178187796480-g3N1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD1UrkMByre9dMYUS_VYuSFrlo0ojG-wJhc"
+    },
+    {
+      title: "EduAnalytics Pro - Learning Analytics Dashboard",
+      subtitle: "Advanced Educational Technology Portfolio Project",
+      description: "Comprehensive learning analytics platform predicting student dropout risk with 100% accuracy using Random Forest ML. Features interactive Streamlit dashboard, real-time engagement tracking, and business intelligence with ROI metrics. Demonstrates 30% dropout reduction through early intervention and $2.3M annual cost savings from improved retention.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/EduAnalytics.png`,
+      link: "https://eduanalytics-pro-garcy4kzhdd9nhuy3ffvgr.streamlit.app/"
     }
   ];
 
@@ -119,7 +133,7 @@ function Projects() {
                 rel="noopener noreferrer" 
                 className="presentation-button"
               >
-                {index === 0 ? 'View Presentation' : index === 1 ? 'View Article' : index === 2 ? 'Play Game' : 'Play Game'} →
+                {index === 0 ? 'View Presentation' : index === 1 ? 'View Article' : index === 2 || index === 3 ? 'Play Game' : index === 4 ? 'View Post' : 'View Dashboard'} →
               </a>
             </div>
           </div>
