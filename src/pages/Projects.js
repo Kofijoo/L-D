@@ -1,13 +1,36 @@
 import React from 'react';
 
 function Projects() {
-  const featuredPresentation = {
-    title: "My Mission & Approach",
-    subtitle: "Instructional Design Philosophy",
-    description: "To design and deliver effective learning experiences at scale that drive measurable business results through innovative instructional design and technical excellence. I partner with organizations to analyze learning needs, design learner-centered and accessible content, and deliver exceptional learning experiences.",
-    thumbnail: `${process.env.PUBLIC_URL}/images/about_me.png`,
-    pdfLink: `${process.env.PUBLIC_URL}/projects/Joshua Agyekum About Me.pdf`
-  };
+  const featuredPresentations = [
+    {
+      title: "My Mission & Approach",
+      subtitle: "Instructional Design Philosophy",
+      description: "To design and deliver effective learning experiences at scale that drive measurable business results through innovative instructional design and technical excellence. I partner with organizations to analyze learning needs, design learner-centered and accessible content, and deliver exceptional learning experiences.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/about_me.png`,
+      link: "https://drive.google.com/file/d/1nYpSAgVi1EGzBbEkc5NXgHoWfe0m-czX/view?usp=drive_link"
+    },
+    {
+      title: "My Design Process & Thought",
+      subtitle: "How I Approach Learning Design",
+      description: "A comprehensive look at my instructional design methodology, from needs analysis to implementation. Discover how I combine learner-centered principles, data-driven decisions, and iterative design to create effective learning experiences that achieve measurable outcomes.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/design_process.png`,
+      link: "https://docs.google.com/document/d/1AzLWzjY8aQqasep5bVywRDtWqOG1aNDC38AEN-9LQSQ/edit?usp=drive_link"
+    },
+    {
+      title: "Eco Explorers Game",
+      subtitle: "Interactive Learning Game with LMS Integration",
+      description: "Vanilla HTML/CSS/JS learning game with 6 short levels. Runs on the open web (GitHub Pages) and inside an LMS via SCORM 1.2. Optionally emits xAPI statements when an LRS is configured. Features include accessibility compliance, keyboard navigation, and comprehensive tracking of attempts, scores, and course completion.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/eco_explorers.png`,
+      link: "https://kofijoo.github.io/scorm-testing/"
+    },
+    {
+      title: "Quest of the Sky Coders",
+      subtitle: "AI-Adaptive Learning Game for Ages 9-11",
+      description: "Professional AI-adaptive learning game featuring interactive floating island adventures across 6 subjects: Fractions, Vocabulary, Geometry, Arithmetic, Logic, and Science. Built with React, includes adaptive difficulty, progressive hints with audio feedback, teacher dashboard with real-time analytics, and full SCORM/xAPI compatibility for LMS deployment.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/learning_island.png`,
+      link: "https://kofijoo.github.io/kid_game.github.io/"
+    }
+  ];
 
   const projects = [
     {
@@ -77,28 +100,30 @@ function Projects() {
       <div className="page-container">
         <h1 className="page-title">Work Samples & Projects</h1>
         <p className="page-intro">
-          Over my 5+ years in instructional design and educational technology, I've worked across various roles—from building adaptive learning systems to designing interactive STEM platforms and developing enterprise-grade compliance training.
+          Over my 5+ years in instructional design and teaching, I've worked across various roles, from teaching, designing and building adaptive learning systems.
         </p>
 
-        {/* Featured Presentation */}
-        <div className="featured-presentation">
-          <div className="presentation-thumbnail">
-            <img src={featuredPresentation.thumbnail} alt={featuredPresentation.title} />
+        {/* Featured Presentations */}
+        {featuredPresentations.map((presentation, index) => (
+          <div key={index} className="featured-presentation">
+            <div className="presentation-thumbnail">
+              <img src={presentation.thumbnail} alt={presentation.title} />
+            </div>
+            <div className="presentation-content">
+              <h2>{presentation.title}</h2>
+              <p className="presentation-subtitle">{presentation.subtitle}</p>
+              <p className="presentation-description">{presentation.description}</p>
+              <a 
+                href={presentation.link} 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="presentation-button"
+              >
+                {index === 0 ? 'View Presentation' : index === 1 ? 'View Article' : index === 2 ? 'Play Game' : 'Play Game'} →
+              </a>
+            </div>
           </div>
-          <div className="presentation-content">
-            <h2>{featuredPresentation.title}</h2>
-            <p className="presentation-subtitle">{featuredPresentation.subtitle}</p>
-            <p className="presentation-description">{featuredPresentation.description}</p>
-            <a 
-              href={featuredPresentation.pdfLink} 
-              target="_blank" 
-              rel="noopener noreferrer" 
-              className="presentation-button"
-            >
-              View Presentation →
-            </a>
-          </div>
-        </div>
+        ))}
 
         <h2 className="section-divider">Featured Projects</h2>
         <div className="projects-grid">
