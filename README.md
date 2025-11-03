@@ -1,169 +1,177 @@
-# Joshua Agyekum - Financial Compliance & BI Analyst Portfolio
+# Joshua Agyekum - Instructional Designer Portfolio
 
-A modern, responsive portfolio website showcasing my expertise in Financial Compliance Systems, Risk Analytics, and Enterprise-Grade Business Intelligence.
+A modern, responsive React portfolio showcasing expertise in instructional design, educational technology, and learning experience development.
 
-## Live Demo
+## 🌐 Live Demo
 
-**Portfolio Website:** [https://kofijoo.github.io](https://kofijoo.github.io)
+**Portfolio Website:** [https://kofijoo.github.io/Instructional_Design_Portfolio](https://kofijoo.github.io/Instructional_Design_Portfolio)
 
-## About
+## 👨‍💼 About
 
-Financial Compliance & Business Intelligence Analyst specializing in AML systems, sanctions screening, risk analytics, and enterprise-grade compliance solutions. Based in Oslo, Norway, with cross-cultural experience across Ghana, China, and Norway.
+Instructional Designer with 5+ years of experience building learning programs that drive measurable business results. Specializing in adaptive learning systems, SCORM-compliant educational games, interactive STEM platforms, and enterprise sales enablement training.
 
-## Key Achievements
+## 🎯 Key Achievements
 
-- **70%** Reduction in Manual Reporting
-- **25+** Variables Analyzed in Power BI
-- **80+** Airbnb Attributes Processed
-- **18K+** Sanctions Records Processed
+- **40%** Increase in Student Engagement
+- **85%** Course Completion Rate
+- **75%** Boost in STEM Engagement
+- **3,000+** Students Reached Across 12 Schools
 
-## Core Competencies
+## 💼 Core Competencies
 
-### Business Intelligence
-- Power BI • Tableau • DAX • Data Modeling
+- **Instructional Design:** ADDIE, SAM, Storyboarding, Curriculum Development
+- **EdTech Development:** SCORM 1.2, xAPI, LMS Integration, Adaptive Learning
+- **Tools & Platforms:** Articulate Storyline, Adobe Creative Suite, React, Python
+- **Learning Analytics:** Power BI, Data-Driven Decision Making
+- **Project Management:** Agile, Atlassian, Change Management
 
-### Data Engineering
-- SQL Server • Python • ETL Pipelines
+## 🚀 Featured Projects
 
-### Analytics & Forecasting
-- Excel • Statistical Analysis • Predictive Models
+### 1. Eco Explorers - SCORM/xAPI HTML5 Game
+Interactive learning game with 6 levels, SCORM 1.2 compliant, and xAPI tracking.
+- **Live Demo:** [Play Game](https://kofijoo.github.io/scorm-testing/)
 
-### Risk Analytics & Compliance
-- AML Systems • Sanctions Screening • FastAPI • NLP
+### 2. Quest of the Sky Coders
+AI-adaptive learning game for ages 9-11 with 6 subject islands and real-time analytics.
+- **Live Demo:** [Play Game](https://kofijoo.github.io/kid_game.github.io/)
 
-## Featured Projects
+### 3. EduAnalytics Pro
+Learning analytics dashboard with 100% accuracy dropout prediction using ML.
+- **Live Demo:** [View Dashboard](https://eduanalytics-pro-garcy4kzhdd9nhuy3ffvgr.streamlit.app/)
 
-### 1. CRM Opportunity Tracker
-Full-stack sales enablement platform with AI-ready win-rate analysis and smart segmentation.
-- **Tech Stack:** React, Node.js, PostgreSQL, Python
-- **Repository:** [CRM-Opportunity-Tracker](https://github.com/Kofijoo/CRM-Opportunity-Tracker)
+## 📚 Education
 
-### 2. Customer Risk Scoring & AML System
-Professional-grade risk assessment system combining transaction analysis, customer profiling, and AML compliance.
-- **Tech Stack:** Python, Risk Scoring Algorithms, PEP Detection, Geographic Risk Factors
-- **Repository:** [Customer-Risk-Scoring-Dashboard](https://github.com/Kofijoo/Customer-Risk-Scoring-Dashboard)
-
-### 3. SLST - Sanctions Screening Tool
-Production-grade compliance screening system processing 18,000+ sanctions entries from OFAC, UN, HMT, and EU sources.
-- **Tech Stack:** FastAPI, Python, NLP, Advanced Matching Algorithms
-- **Repository:** [sanctions-screening-tool](https://github.com/Kofijoo/sanctions-screening-tool)
-
-### 4. Power BI Career Analytics Dashboard
-Interactive workforce analytics dashboard analyzing 25+ variables for strategic HR decisions.
-- **Tech Stack:** Power BI, DAX, Custom Visuals
-- **Repository:** [Power-BI-Tutorial](https://github.com/Kofijoo/Power-BI-Tutorial)
-
-### 5. SQL Data Pipeline & Analytics
-ETL pipelines processing COVID-19 datasets across multiple countries for comparative analysis.
-- **Tech Stack:** SQL Server, Python, Tableau
-- **Repository:** [SQL-Data-Exploration](https://github.com/Kofijoo/SQL-Data-Exploration)
-
-### 6. Excel License Forecasting Model
-Dynamic dashboards with Power Pivot for software license cost optimization.
-- **Tech Stack:** Excel VBA, Power Pivot, Scenario Modeling
-- **Repository:** [Excel-Based-Forecasting-Dashboard](https://github.com/Kofijoo/Excel-Based-Forecasting-Dashboard)
-
-## Education
-
+- **M.Ed. Educational Technology** - Huzhou University, China (2019-2022)
 - **MSc International Relations** - Norwegian University of Life Sciences (2022-2024)
-- **MSc Educational Technology** - Huzhou University, China (2019-2022)
-- **BSc Educational Technology** - University of Education, Ghana (2014-2018)
+- **B.Ed. Educational Technology** - University of Education, Ghana (2014-2018)
 
 ## 📝 Published Research
 
-1. **Innovative STEAM Education & Teaching Practice** - IJMSBR, Vol 10(4), 2023
-2. **Linking Science to Real Life in Basic Schools** - IJMSBR, Vol 10(4), 2023
-3. **Classroom Management & Student Stress** - IJMSBR, Vol 10(2), 2023
+1. **Natural Science & Real Life Learning** - IJMSBR (2023) - Lead Author
+2. **STEAM Education Model** - IJMSBR (2023) - Sole Author
+3. **Classroom Management & Student Well-being** - IJMSBR (2023) - Co-Author
 
-## 🌐 Technologies Used
+## 🛠️ Tech Stack
 
 ### Frontend
+- React 18
+- React Router DOM
 - HTML5, CSS3, JavaScript
-- Responsive Design
-- Modern UI/UX Principles
 
-### Analytics Tools
-- Power BI, Tableau
-- Python (Pandas, NumPy, Matplotlib, FastAPI)
-- SQL Server, PostgreSQL
-- Excel (VBA, Power Pivot)
+### Development Tools
+- Node.js & npm
+- Git & GitHub
+- VS Code
 
-### Financial Compliance
-- AML/KYC Systems
-- Sanctions Screening (OFAC, UN, HMT, EU)
-- Risk Scoring Algorithms
-- NLP for Compliance Matching
-
-### Cloud & DevOps
-- AWS (EC2, S3)
-- Docker, GitHub Actions
-- Linux Systems
+### Deployment
+- GitHub Pages
+- Responsive Design (Mobile & Desktop Optimized)
 
 ## 📱 Features
 
-- **Responsive Design** - Optimized for all devices
-- **Professional Layout** - Clean, modern interface
-- **Interactive Elements** - Smooth scrolling and animations
-- **SEO Optimized** - Meta tags and structured content
-- **Fast Loading** - Optimized images and minimal code
+- ✅ Fully Responsive Design
+- ✅ Interactive Project Showcases
+- ✅ Professional Certifications Gallery
+- ✅ Research Publications
+- ✅ Recommendations & Accreditations
+- ✅ Contact Information
+- ✅ Fast Loading & SEO Optimized
 
-## 🚀 Getting Started
+## 🚀 Local Development
 
 ### Prerequisites
-- Web browser (Chrome, Firefox, Safari, Edge)
-- Internet connection for external resources
+- Node.js (v14 or higher)
+- npm or yarn
+- Git
 
-### Local Development
+### Installation
+
 1. Clone the repository
 ```bash
-git clone https://github.com/Kofijoo/portfolio.git
+git clone https://github.com/Kofijoo/Instructional_Design_Portfolio.git
+cd Instructional_Design_Portfolio
 ```
 
-2. Navigate to project directory
+2. Install dependencies
 ```bash
-cd portfolio
+npm install
 ```
 
-3. Open in browser
+3. Start development server
 ```bash
-open index.html
+npm start
+```
+
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Build for Production
+
+```bash
+npm run build
 ```
 
 ## 📂 Project Structure
 
 ```
-portfolio/
-├── index.html              # Main portfolio page
-├── assets/
-│   ├── css/
-│   │   ├── main.css        # Main stylesheet
-│   │   └── noscript.css    # No-JS fallback
-│   └── js/
-│       ├── main.js         # Main JavaScript
-│       └── jquery.min.js   # jQuery library
-├── images/                 # Project screenshots and assets
-├── resume/                 # Resume PDF files
-└── README.md              # This file
+Instructional_Design_Portfolio/
+├── public/
+│   ├── images/              # All images and assets
+│   ├── projects/            # PDF documents
+│   └── index.html           # HTML template
+├── src/
+│   ├── components/          # React components
+│   │   ├── Navigation.js
+│   │   └── Footer.js
+│   ├── pages/               # Page components
+│   │   ├── About.js
+│   │   ├── Projects.js
+│   │   ├── Experience.js
+│   │   ├── Toolkit.js
+│   │   ├── Certifications.js
+│   │   ├── Education.js
+│   │   ├── Recommendations.js
+│   │   ├── Articles.js
+│   │   └── Contact.js
+│   ├── styles/
+│   │   └── App.css          # Global styles
+│   ├── App.js               # Main app component
+│   └── index.js             # Entry point
+├── package.json             # Dependencies
+├── .gitignore              # Git ignore rules
+└── README.md               # This file
 ```
+
+## 🌐 Deployment
+
+This portfolio is deployed on GitHub Pages. To deploy updates:
+
+1. Make your changes
+2. Commit and push to main branch
+```bash
+git add .
+git commit -m "Update portfolio"
+git push origin main
+```
+
+3. GitHub Pages automatically deploys from the main branch
 
 ## 📧 Contact
 
-- **Email:** [joshuaagyekum21@gmail.com](mailto:joshuaagyekum21@gmail.com)
+- **Email:** joshuaagyekum21@gmail.com
 - **LinkedIn:** [joshua-agyekum](https://www.linkedin.com/in/joshua-agyekum/)
 - **GitHub:** [Kofijoo](https://github.com/Kofijoo)
-- **Phone:** +47 463 99 384
 - **Location:** Oslo, Norway
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the template credits below.
+This project is open source and available under the MIT License.
 
-## 🙏 Credits
+## 🙏 Acknowledgments
 
-- **Template:** [Massively by HTML5 UP](https://html5up.net/massively)
-- **Icons:** Font Awesome
-- **Fonts:** Google Fonts
+- Built with React
+- Deployed on GitHub Pages
+- Icons and fonts from Google Fonts
 
 ---
 
-**© 2024 Joshua Agyekum | Financial Compliance & BI Analyst**
+**© 2025 Joshua Agyekum | Instructional Designer**

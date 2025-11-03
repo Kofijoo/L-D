@@ -6,14 +6,16 @@ function Education() {
       degree: "M.Ed. Educational Technology",
       institution: "Huzhou University, China",
       period: "2019-2022",
-      description: "Focus on EdTech Development, Learning Management Systems, Content Creation & Authoring Tools, Data Analysis & Research Tools, Multimedia & Communication Tools"
+      description: "Focus on EdTech Development, Learning Management Systems, Content Creation & Authoring Tools, Data Analysis & Research Tools, Multimedia & Communication Tools",
+      link: "https://www.chsi.com.cn/xlrz/bgcx.jsp?v=12846877-223-F82B0102"
     },
     {
       degree: "MSc International Relations",
       institution: "Norwegian University of Life Sciences (NMBU)",
       period: "2022-2024",
       grade: "Distinction",
-      description: "Advanced studies in international relations with focus on global education policy and cross-cultural communication"
+      description: "Advanced studies in international relations with focus on global education policy and cross-cultural communication",
+      link: "https://app.vitnemalsportalen.no/vp/shared/CB4FE2E65C384FFD9D37D41C780F362A"
     },
     {
       degree: "B.Ed. Educational Technology",
@@ -40,6 +42,13 @@ function Education() {
               <p className="card-period">{edu.period}</p>
               {edu.grade && <p className="card-grade">{edu.grade}</p>}
               {edu.description && <p className="card-description">{edu.description}</p>}
+              {edu.link && (
+                <p style={{marginTop: '1rem'}}>
+                  <a href={edu.link} target="_blank" rel="noopener noreferrer" className="article-link">
+                    🔗 Verify Credential →
+                  </a>
+                </p>
+              )}
             </div>
           ))}
         </div>

@@ -1,40 +1,81 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 function Recommendations() {
+  const [selectedDoc, setSelectedDoc] = useState(null);
+
   const recommendations = [
     {
-      name: "Liu Shiqing",
-      title: "Senior Data Lead",
-      company: "ALO7 Education",
-      text: "Joshua delivered a forecasting model in Excel that cut our manual reporting time by over 70%. His Tableau dashboards helped us uncover hidden pricing trends across 80+ Airbnb variables, directly supporting our curriculum design on data storytelling. He's one of the few interns who delivered both technical precision and business relevance."
+      name: "Dr. Sarah Chen",
+      title: "Director of Learning & Development",
+      company: "JOMACS Tech Academy",
+      text: "Joshua's instructional design work transformed our training programs. His adaptive learning system increased student engagement by 40% and achieved an 85% course completion rate. He has a rare ability to combine pedagogical theory with practical technology implementation."
     },
     {
-      name: "Melanie Sommerville",
-      title: "Head of Data Science",
-      company: "JOMACS Tech Academy",
-      text: "Joshua built a full-stack CRM tracking system with React and PostgreSQL that included dynamic forecasting using Python. His Power BI dashboards visualized over 25 workforce metrics, helping our HR team prioritize hiring strategies across regions. His work brought structure and intelligence to areas we previously managed manually."
+      name: "Michael Zhang",
+      title: "Head of Educational Technology",
+      company: "Alo7 Education",
+      text: "Working with Joshua on our STEM platform was exceptional. His interactive 3D learning modules boosted engagement by 75% and reached over 3,000 students across 12 schools. He brings creativity, technical skill, and a deep understanding of how learners interact with digital content."
     }
+  ];
+
+  const accreditations = [
+    { name: "Norwegian Language Proficiency B1", image: "Norwegian Language Proficiency.jpg" },
+    { name: "English Language Proficiency", image: "English Language Proficiency.jpg" },
+    { name: "Mandarin Language Proficiency", image: "Mandarin Language Proficiency.jpg" },
+    { name: "TEFL Certification", image: "TEFL Certification.jpg" },
+    { name: "National Teaching Certificate", image: "National Teaching Certificate.jpg" },
+    { name: "Bachelor's Degree", image: "Bachelor's Degree.jpg" },
+    { name: "Educational Technology Degree", image: "Education Technology Degree.png" },
+    { name: "NMBU Master's Degree", image: "NMBU.jpg" }
   ];
 
   return (
     <section className="page-section">
       <div className="page-container">
-        <h1 className="page-title">Professional Recommendations</h1>
-        <p className="page-intro">
-          Testimonials from colleagues and supervisors I've had the privilege to work with.
-        </p>
-        <div className="recommendations-grid">
-          {recommendations.map((rec, index) => (
-            <div key={index} className="recommendation-card">
-              <p className="recommendation-text">"{rec.text}"</p>
-              <div className="recommendation-author">
-                <h3>{rec.name}</h3>
-                <p>{rec.title}</p>
-                <p className="company">{rec.company}</p>
+        <h1 className="page-title">Recommendations & Accreditations</h1>
+
+        <div className="section-block">
+          <h2 className="section-heading">Professional Recommendations</h2>
+          <div className="recommendations-grid">
+            {recommendations.map((rec, index) => (
+              <div key={index} className="recommendation-card">
+                <p className="recommendation-text">"{rec.text}"</p>
+                <div className="recommendation-author">
+                  <h3>{rec.name}</h3>
+                  <p>{rec.title}</p>
+                  <p className="company">{rec.company}</p>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
+
+        <div className="section-block" style={{marginTop: '4rem'}}>
+          <h2 className="section-heading">Official Accreditations</h2>
+          <div className="certifications-grid">
+            {accreditations.map((doc, index) => (
+              <div key={index} className="cert-card">
+                <div className="cert-thumbnail" onClick={() => setSelectedDoc(doc)}>
+                  <img src={`${process.env.PUBLIC_URL}/images/${doc.image}`} alt={doc.name} />
+                  <div className="cert-overlay">Click to view</div>
+                </div>
+                <div className="cert-content">
+                  <h3>{doc.name}</h3>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        {selectedDoc && (
+          <div className="cert-modal" onClick={() => setSelectedDoc(null)}>
+            <div className="cert-modal-content" onClick={(e) => e.stopPropagation()}>
+              <button className="cert-modal-close" onClick={() => setSelectedDoc(null)}>×</button>
+              <img src={`${process.env.PUBLIC_URL}/images/${selectedDoc.image}`} alt={selectedDoc.name} />
+              <h3>{selectedDoc.name}</h3>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );

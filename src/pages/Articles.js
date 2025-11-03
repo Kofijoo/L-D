@@ -1,51 +1,57 @@
 import React from 'react';
 
 function Articles() {
-  const articles = [
+  const publications = [
     {
-      title: "Quick share from today's work as an Instructional Designer",
-      date: "1 week ago",
-      excerpt: "I had to give a short talk on the Successive Approximation Model (SAM) in Instructional Design, so I designed a concise, visually structured PowerPoint presentation using the Section Zoom feature and some animations.",
-      link: "https://www.linkedin.com/in/joshua-agyekum/",
-      tags: ["InstructionalDesign", "SAM", "LearningDesign", "PowerPoint", "EdTech"]
+      title: "Natural Science & Real Life Learning",
+      journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
+      year: "2023",
+      role: "Lead Author",
+      link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1737/#abstract"
     },
     {
-      title: "W3Schools JavaScript Certification Achievement",
-      date: "1 month ago",
-      excerpt: "Proud to share that I've officially completed the W3Schools JavaScript Certification and earned the title of Certified JavaScript Developer! After weeks of dedication, completing 206/206 lessons and 267/267 exercises.",
-      link: "https://www.linkedin.com/in/joshua-agyekum/",
-      tags: ["JavaScript", "Certification", "WebDevelopment", "ContinuousLearning"]
+      title: "STEAM Education Model",
+      journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
+      year: "2023",
+      role: "Sole Author",
+      link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1728/#abstract"
+    },
+    {
+      title: "Classroom Management & Student Well-being",
+      journal: "International Journal of Management Sciences and Business Research (IJMSBR)",
+      year: "2023",
+      role: "Co-Author",
+      link: "https://www.ijmsbr.com/publications-of-ijmsbr/article/1680/#abstract"
     }
   ];
 
   return (
     <section className="page-section">
       <div className="page-container">
-        <h1 className="page-title">LinkedIn Articles & Posts</h1>
+        <h1 className="page-title">Research</h1>
         <p className="page-intro">
-          Sharing insights on instructional design, educational technology, and professional development.
+          Published research and insights on instructional design and educational technology.
         </p>
-        <div className="articles-grid">
-          {articles.map((article, index) => (
-            <div key={index} className="article-card">
-              <h2>{article.title}</h2>
-              <p className="article-date">{article.date}</p>
-              <p className="article-excerpt">{article.excerpt}</p>
-              <div className="article-tags">
-                {article.tags.map((tag, i) => (
-                  <span key={i} className="tag">#{tag}</span>
-                ))}
+
+        <div className="section-block">
+          <div className="articles-grid">
+            {publications.map((pub, index) => (
+              <div key={index} className="article-card">
+                <h2>{pub.title}</h2>
+                <p className="article-date">{pub.journal} | {pub.year}</p>
+                <p className="article-excerpt"><strong>Role:</strong> {pub.role}</p>
+                <a href={pub.link} target="_blank" rel="noopener noreferrer" className="article-link">
+                  Read Publication →
+                </a>
               </div>
-              <a href={article.link} target="_blank" rel="noopener noreferrer" className="article-link">
-                Read on LinkedIn →
-              </a>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
+
         <div className="linkedin-cta">
-          <p>Follow me on LinkedIn for more insights and updates</p>
-          <a href="https://www.linkedin.com/in/joshua-agyekum/" target="_blank" rel="noopener noreferrer" className="cta-button">
-            Connect on LinkedIn
+          <p>Want to read more of my articles and insights?</p>
+          <a href="https://www.linkedin.com/in/joshua-agyekum/recent-activity/all/" target="_blank" rel="noopener noreferrer" className="cta-button">
+            View All Articles on LinkedIn
           </a>
         </div>
       </div>
