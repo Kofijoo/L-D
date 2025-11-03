@@ -41,6 +41,30 @@ function Experience() {
       location: "Ningbo, Zhejiang, China · Hybrid",
       description: "Developed interactive STEM learning modules using digital tools and virtual classroom platforms. Increased STEM engagement by 75% through interactive 3D educational content.",
       skills: ["Three.js", "WebGL", "STEM Education", "3D Visualization"]
+    },
+    {
+      title: "Visual Arts & Design Tutor",
+      company: "Brainhill International School",
+      period: "2018 - 2019",
+      location: "Ghana",
+      description: "Taught creative design principles and visual arts to Basic 3 pupils using hands-on, project-based learning approaches. Developed engaging lesson plans that integrated art fundamentals with digital design concepts.",
+      skills: ["Visual Arts", "Design Thinking", "Creative Instruction", "Project-Based Learning"]
+    },
+    {
+      title: "Instructional Support Specialist",
+      company: "Kaneshie Awudome JHS",
+      period: "2018 - 2019",
+      location: "Ghana",
+      description: "Supported classroom instruction and learning design activities. Assisted in developing visual learning materials and managing educational resources for enhanced student engagement.",
+      skills: ["Classroom Management", "Learning Materials Design", "Student Support"]
+    },
+    {
+      title: "Creative Learning Facilitator",
+      company: "Global Access Academy",
+      period: "2013 - 2014",
+      location: "Ghana",
+      description: "Facilitated STEM learning through creative and visual teaching methodologies. Designed engaging educational activities that combined mathematical concepts with artistic expression for primary students.",
+      skills: ["STEM Education", "Creative Pedagogy", "Visual Learning", "Primary Education"]
     }
   ];
 
