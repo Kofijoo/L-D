@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Toolkit() {
   const tools = {
@@ -68,6 +69,7 @@ function Toolkit() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Professional Toolkit</h1>
         <p className="page-intro">
@@ -76,7 +78,7 @@ function Toolkit() {
 
         <div className="toolkit-grid">
           <div className="toolkit-category">
-            <h2>📚 Instructional Design Models</h2>
+            <h2>Instructional Design Models</h2>
             <div className="tools-list">
               {tools.instructionalDesign.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -85,7 +87,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>🎨 eLearning Authoring Tools</h2>
+            <h2>eLearning Authoring Tools</h2>
             <div className="tools-list">
               {tools.authoringTools.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -94,7 +96,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>🖌️ Design & Multimedia</h2>
+            <h2>Design & Multimedia</h2>
             <div className="tools-list">
               {tools.designTools.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -103,7 +105,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>🎓 LMS Platforms</h2>
+            <h2>LMS Platforms</h2>
             <div className="tools-list">
               {tools.lmsPlatforms.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -112,7 +114,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>💻 Development Tools</h2>
+            <h2>Development Tools</h2>
             <div className="tools-list">
               {tools.developmentTools.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -121,7 +123,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>📊 Data & Analytics</h2>
+            <h2>Data & Analytics</h2>
             <div className="tools-list">
               {tools.dataAnalytics.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -130,7 +132,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>☁️ Cloud & DevOps</h2>
+            <h2>Cloud & DevOps</h2>
             <div className="tools-list">
               {tools.cloudDevOps.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>
@@ -139,7 +141,7 @@ function Toolkit() {
           </div>
 
           <div className="toolkit-category">
-            <h2>🤝 Collaboration Tools</h2>
+            <h2>Collaboration Tools</h2>
             <div className="tools-list">
               {tools.collaboration.map((tool, index) => (
                 <span key={index} className="tool-tag">{tool}</span>

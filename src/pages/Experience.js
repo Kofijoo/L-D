@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Experience() {
   const experiences = [
@@ -70,6 +71,7 @@ function Experience() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Professional Experience</h1>
         <div className="timeline">

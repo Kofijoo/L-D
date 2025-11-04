@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Articles() {
   const publications = [
@@ -27,6 +28,7 @@ function Articles() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Research</h1>
         <p className="page-intro">

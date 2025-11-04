@@ -1,8 +1,10 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function About() {
   return (
     <section className="about-hero">
+      <AnimatedBackground />
       <div className="about-container">
         <div className="about-photo">
           <img src={`${process.env.PUBLIC_URL}/images/profile_photo.png`} alt="Joshua Agyekum" />

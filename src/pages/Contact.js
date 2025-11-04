@@ -1,8 +1,10 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Contact() {
   return (
     <section className="page-section contact-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Get in Touch</h1>
         <p className="page-intro">
@@ -11,51 +13,51 @@ function Contact() {
         
         <div className="contact-grid">
           <div className="contact-card">
-            <h2>📍 Location</h2>
+            <h2>Location</h2>
             <p>Oslo, Norway</p>
             <p className="contact-note">Permanent residence + Valid work permit</p>
           </div>
           
           <div className="contact-card">
-            <h2>📧 Email</h2>
+            <h2>Email</h2>
             <a href="mailto:joshuaagyekum21@gmail.com">joshuaagyekum21@gmail.com</a>
           </div>
           
           <div className="contact-card">
-            <h2>📱 Phone</h2>
+            <h2>Phone</h2>
             <a href="tel:+4746399384">+47 463 99 384</a>
           </div>
           
           <div className="contact-card">
-            <h2>💼 LinkedIn</h2>
+            <h2>LinkedIn</h2>
             <a href="https://www.linkedin.com/in/joshua-agyekum/" target="_blank" rel="noopener noreferrer">
               linkedin.com/in/joshua-agyekum
             </a>
           </div>
           
           <div className="contact-card">
-            <h2>💻 GitHub</h2>
+            <h2>GitHub</h2>
             <a href="https://github.com/Kofijoo" target="_blank" rel="noopener noreferrer">
               github.com/Kofijoo
             </a>
           </div>
           
           <div className="contact-card">
-            <h2>🏆 Credly</h2>
+            <h2>Credly</h2>
             <a href="https://www.credly.com/users/joshua-agyekum.7b55a7d0/badges" target="_blank" rel="noopener noreferrer">
               View Badges
             </a>
           </div>
           
           <div className="contact-card">
-            <h2>📊 W3Profile</h2>
+            <h2>W3Profile</h2>
             <a href="https://www.w3profile.com/kofijoo/" target="_blank" rel="noopener noreferrer">
               w3profile.com/kofijoo
             </a>
           </div>
           
           <div className="contact-card">
-            <h2>🌐 Languages</h2>
+            <h2>Languages</h2>
             <p>English (Fluent)</p>
             <p>Norwegian (B1)</p>
             <p>Mandarin (HSK 3)</p>

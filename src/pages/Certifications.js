@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Certifications() {
   const [selectedCert, setSelectedCert] = useState(null);
@@ -24,6 +25,7 @@ function Certifications() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Professional Certifications</h1>
         <p className="page-intro">
@@ -34,15 +36,12 @@ function Certifications() {
           {certifications.map((cert, index) => (
             <div key={index} className="cert-card">
               {cert.image && (
-                <div className="cert-thumbnail" onClick={() => setSelectedCert(cert)}>
-                  <img src={`${process.env.PUBLIC_URL}/images/${cert.image}`} alt={cert.name} />
-                  <div className="cert-overlay">Click to view</div>
+                <div className="cert-thumbnail" onClick={() => setSelectedCert(cert)} style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div className="cert-overlay" style={{opacity: 1, position: 'static', background: 'transparent', color: '#ffffff', fontSize: '1rem', fontWeight: '600'}}>Click to view</div>
                 </div>
               )}
               <div className="cert-content">
                 <h3>{cert.name}</h3>
-                <p className="cert-issuer">{cert.issuer}</p>
-                <p className="cert-date">{cert.date}</p>
                 {cert.link && (
                   <a href={cert.link} target="_blank" rel="noopener noreferrer" className="cert-verify">
                     Verify →

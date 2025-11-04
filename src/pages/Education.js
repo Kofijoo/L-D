@@ -1,4 +1,5 @@
 import React from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Education() {
   const education = [
@@ -28,6 +29,7 @@ function Education() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Education</h1>
         <p className="page-intro">
@@ -45,7 +47,7 @@ function Education() {
               {edu.link && (
                 <p style={{marginTop: '1rem'}}>
                   <a href={edu.link} target="_blank" rel="noopener noreferrer" className="article-link">
-                    🔗 Verify Credential →
+                    Verify Credential →
                   </a>
                 </p>
               )}

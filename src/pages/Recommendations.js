@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import AnimatedBackground from '../components/AnimatedBackground';
 
 function Recommendations() {
   const [selectedDoc, setSelectedDoc] = useState(null);
@@ -31,6 +32,7 @@ function Recommendations() {
 
   return (
     <section className="page-section">
+      <AnimatedBackground />
       <div className="page-container">
         <h1 className="page-title">Recommendations & Accreditations</h1>
 
@@ -55,9 +57,8 @@ function Recommendations() {
           <div className="certifications-grid">
             {accreditations.map((doc, index) => (
               <div key={index} className="cert-card">
-                <div className="cert-thumbnail" onClick={() => setSelectedDoc(doc)}>
-                  <img src={`${process.env.PUBLIC_URL}/images/${doc.image}`} alt={doc.name} />
-                  <div className="cert-overlay">Click to view</div>
+                <div className="cert-thumbnail" onClick={() => setSelectedDoc(doc)} style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
+                  <div className="cert-overlay" style={{opacity: 1, position: 'static', background: 'transparent', color: '#ffffff', fontSize: '1rem', fontWeight: '600'}}>Click to view</div>
                 </div>
                 <div className="cert-content">
                   <h3>{doc.name}</h3>
