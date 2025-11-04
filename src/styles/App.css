@@ -80,7 +80,6 @@ body {
   background: #ffffff;
   flex: 1;
   position: relative;
-  overflow: hidden;
 }
 
 .about-container {
@@ -700,6 +699,10 @@ body {
     gap: 1rem;
     font-size: 0.85rem;
     justify-content: center;
+  }
+  
+  .about-hero {
+    min-height: auto;
   }
   
   .about-container {
