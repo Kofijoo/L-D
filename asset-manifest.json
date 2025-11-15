@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Instructional_Design_Portfolio/static/css/main.e9525286.css",
-    "main.js": "/Instructional_Design_Portfolio/static/js/main.9f433f68.js",
+    "main.js": "/Instructional_Design_Portfolio/static/js/main.95824604.js",
     "index.html": "/Instructional_Design_Portfolio/index.html",
     "main.e9525286.css.map": "/Instructional_Design_Portfolio/static/css/main.e9525286.css.map",
-    "main.9f433f68.js.map": "/Instructional_Design_Portfolio/static/js/main.9f433f68.js.map"
+    "main.95824604.js.map": "/Instructional_Design_Portfolio/static/js/main.95824604.js.map"
   },
   "entrypoints": [
     "static/css/main.e9525286.css",
-    "static/js/main.9f433f68.js"
+    "static/js/main.95824604.js"
   ]
 }

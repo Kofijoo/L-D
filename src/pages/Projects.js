@@ -25,11 +25,25 @@ function Projects() {
       link: "https://kofijoo.github.io/scorm-testing/"
     },
     {
+      title: "Legal Writing 101 - Interactive Training Simulation",
+      subtitle: "Professional Legal Writing Training Platform",
+      description: "A professional React-based simulation for legal writing training, featuring 8 interactive scenes with AI assistant ALEX. Complete training workflow from problem identification to course completion with contextual guidance, drag-and-drop interactions, and progress tracking. Forest Wisdom theme with responsive design optimized for desktop and mobile devices.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/jus.png`,
+      link: "https://kofijoo.github.io/legal-writing-101-simulation/"
+    },
+    {
       title: "Quest of the Sky Coders",
       subtitle: "AI-Adaptive Learning Game for Ages 9-11",
       description: "Professional AI-adaptive learning game featuring interactive floating island adventures across 6 subjects: Fractions, Vocabulary, Geometry, Arithmetic, Logic, and Science. Built with React, includes adaptive difficulty, progressive hints with audio feedback, teacher dashboard with real-time analytics, and full SCORM/xAPI compatibility for LMS deployment.",
       thumbnail: `${process.env.PUBLIC_URL}/images/learning_island.png`,
       link: "https://kofijoo.github.io/kid_game.github.io/"
+    },
+    {
+      title: "Selling with Clarity - Interactive Training Platform",
+      subtitle: "Global Sales Enablement Program",
+      description: "A comprehensive React-based training application for global sales enablement. This interactive platform guides sales representatives through 6 progressive scenes to master product knowledge, objection handling, and performance optimization. Features scenario-based learning, interactive assessments, and real-world sales simulations.",
+      thumbnail: `${process.env.PUBLIC_URL}/images/sales.png`,
+      link: "https://kofijoo.github.io/Selling_with_Clarity/"
     },
     {
       title: "Successive Approximation Model (SAM) in Instructional Design",
@@ -135,7 +149,7 @@ function Projects() {
                 rel="noopener noreferrer" 
                 className="presentation-button"
               >
-                {index === 0 ? 'View Presentation' : index === 1 ? 'View Article' : index === 2 || index === 3 ? 'Play Game' : index === 4 ? 'View Post' : 'View Dashboard'} →
+                {index === 0 ? 'View Presentation' : index === 1 ? 'View Article' : index === 2 || index === 4 ? 'Play Game' : index === 3 || index === 5 ? 'Launch Training' : index === 6 ? 'View Post' : 'View Dashboard'} →
               </a>
             </div>
           </div>
