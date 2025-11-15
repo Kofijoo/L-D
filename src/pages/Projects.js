@@ -25,7 +25,7 @@ function Projects() {
       link: "https://kofijoo.github.io/scorm-testing/"
     },
     {
-      title: "Legal Writing 101 - Interactive Training Simulation",
+      title: "Legal Writing 101",
       subtitle: "Professional Legal Writing Training Platform",
       description: "A professional React-based simulation for legal writing training, featuring 8 interactive scenes with AI assistant ALEX. Complete training workflow from problem identification to course completion with contextual guidance, drag-and-drop interactions, and progress tracking. Forest Wisdom theme with responsive design optimized for desktop and mobile devices.",
       thumbnail: `${process.env.PUBLIC_URL}/images/jus.png`,
@@ -39,7 +39,7 @@ function Projects() {
       link: "https://kofijoo.github.io/kid_game.github.io/"
     },
     {
-      title: "Selling with Clarity - Interactive Training Platform",
+      title: "Selling with Clarity",
       subtitle: "Global Sales Enablement Program",
       description: "A comprehensive React-based training application for global sales enablement. This interactive platform guides sales representatives through 6 progressive scenes to master product knowledge, objection handling, and performance optimization. Features scenario-based learning, interactive assessments, and real-world sales simulations.",
       thumbnail: `${process.env.PUBLIC_URL}/images/sales.png`,
