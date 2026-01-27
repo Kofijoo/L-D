@@ -2,7 +2,7 @@
   "name": "joshua-agyekum-portfolio",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://kofijoo.github.io/Instructional_Design_Portfolio",
+  "homepage": "https://kofijoo.github.io/L-D",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
