@@ -9,32 +9,39 @@ function Recommendations() {
       name: "Dr. Sarah Chen",
       title: "Director of Learning & Development",
       company: "JOMACS Tech Academy",
-      text: "Joshua's instructional design work transformed our training programs. His adaptive learning system increased student engagement by 40% and achieved an 85% course completion rate. He has a rare ability to combine pedagogical theory with practical technology implementation."
+      text:
+        "Joshua strengthened our learning programs in a meaningful way. His work on a personalized learning experience contributed to a 40% increase in learner engagement and an 85% course completion rate. He brings a thoughtful, learner-centered approach and partners well with stakeholders to deliver practical outcomes."
     },
     {
       name: "Michael Zhang",
       title: "Head of Educational Technology",
       company: "Alo7 Education",
-      text: "Working with Joshua on our STEM platform was exceptional. His interactive 3D learning modules boosted engagement by 75% and reached over 3,000 students across 12 schools. He brings creativity, technical skill, and a deep understanding of how learners interact with digital content."
+      text:
+        "Working with Joshua on our STEM learning experience was excellent. His work helped boost learner engagement by 75% and supported delivery to over 3,000 learners across 12 schools. He combines creativity with a strong understanding of how to design digital learning that keeps people engaged and supports real understanding."
     }
   ];
 
-  const accreditations = [
-    { name: "Norwegian Language Proficiency B1", image: "Norwegian Language Proficiency.jpg" },
+  // Keep this list focused on identity/education/language documents that employers may ask to verify.
+  const officialDocs = [
+    { name: "Norwegian Language Proficiency (B1)", image: "Norwegian Language Proficiency.jpg" },
     { name: "English Language Proficiency", image: "English Language Proficiency.jpg" },
     { name: "Mandarin Language Proficiency", image: "Mandarin Language Proficiency.jpg" },
-    { name: "TEFL Certification", image: "TEFL Certification.jpg" },
-    { name: "National Teaching Certificate", image: "National Teaching Certificate.jpg" },
-    { name: "Bachelor's Degree", image: "Bachelor's Degree.jpg" },
-    { name: "Educational Technology Degree", image: "Education Technology Degree.png" },
-    { name: "NMBU Master's Degree", image: "NMBU.jpg" }
+    { name: "HK-dir Recognition / Qualification Document", image: "HK-dir decision.jpg" }, // rename image if needed
+    { name: "TEFL Certificate (120 hours)", image: "TEFL Certification.jpg" },
+    { name: "National Teaching Certificate (Ghana)", image: "National Teaching Certificate.jpg" },
+    { name: "Bachelor’s Degree", image: "Bachelor's Degree.jpg" },
+    { name: "M.Ed. Education Technology", image: "Education Technology Degree.png" },
+    { name: "MSc International Relations (NMBU)", image: "NMBU.jpg" }
   ];
 
   return (
     <section className="page-section">
       <AnimatedBackground />
       <div className="page-container">
-        <h1 className="page-title">Recommendations & Accreditations</h1>
+        <h1 className="page-title">Recommendations & Official Documents</h1>
+        <p className="page-intro">
+          A few professional recommendations, along with key documents that can be shared for verification when needed.
+        </p>
 
         <div className="section-block">
           <h2 className="section-heading">Professional Recommendations</h2>
@@ -52,14 +59,41 @@ function Recommendations() {
           </div>
         </div>
 
-        <div className="section-block" style={{marginTop: '4rem'}}>
-          <h2 className="section-heading">Official Accreditations</h2>
+        <div className="section-block" style={{ marginTop: '4rem' }}>
+          <h2 className="section-heading">Official Documents</h2>
+          <p className="page-intro" style={{ marginTop: '0.5rem' }}>
+            These are available upon request and can be verified through the relevant issuing bodies where applicable.
+          </p>
+
           <div className="certifications-grid">
-            {accreditations.map((doc, index) => (
+            {officialDocs.map((doc, index) => (
               <div key={index} className="cert-card">
-                <div className="cert-thumbnail" onClick={() => setSelectedDoc(doc)} style={{background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)', display: 'flex', alignItems: 'center', justifyContent: 'center'}}>
-                  <div className="cert-overlay" style={{opacity: 1, position: 'static', background: 'transparent', color: '#ffffff', fontSize: '1rem', fontWeight: '600'}}>Click to view</div>
+                <div
+                  className="cert-thumbnail"
+                  onClick={() => setSelectedDoc(doc)}
+                  style={{
+                    background: 'linear-gradient(135deg, rgba(100,116,139,1) 0%, rgba(148,163,184,1) 100%)',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    cursor: 'pointer'
+                  }}
+                >
+                  <div
+                    className="cert-overlay"
+                    style={{
+                      opacity: 1,
+                      position: 'static',
+                      background: 'transparent',
+                      color: '#ffffff',
+                      fontSize: '1rem',
+                      fontWeight: '600'
+                    }}
+                  >
+                    Click to view
+                  </div>
                 </div>
+
                 <div className="cert-content">
                   <h3>{doc.name}</h3>
                 </div>

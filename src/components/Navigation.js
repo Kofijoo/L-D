@@ -11,23 +11,113 @@ function Navigation() {
     <nav className="main-nav">
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <img src={`${process.env.PUBLIC_URL}/images/ja_logo.png`} alt="Joshua Agyekum" className="logo-img" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/ja_logo.png`}
+            alt="Joshua Agyekum"
+            className="logo-img"
+          />
         </Link>
-        <button className="menu-toggle" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
+
+        <button
+          className="menu-toggle"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+        >
           <span></span>
           <span></span>
           <span></span>
         </button>
+
         <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-          <li><Link to="/" className={location.pathname === '/' ? 'active' : ''} onClick={handleLinkClick}>About Me</Link></li>
-          <li><Link to="/projects" className={location.pathname === '/projects' ? 'active' : ''} onClick={handleLinkClick}>Projects</Link></li>
-          <li><Link to="/experience" className={location.pathname === '/experience' ? 'active' : ''} onClick={handleLinkClick}>Experience</Link></li>
-          <li><Link to="/toolkit" className={location.pathname === '/toolkit' ? 'active' : ''} onClick={handleLinkClick}>Toolkit</Link></li>
-          <li><Link to="/certifications" className={location.pathname === '/certifications' ? 'active' : ''} onClick={handleLinkClick}>Certifications</Link></li>
-          <li><Link to="/education" className={location.pathname === '/education' ? 'active' : ''} onClick={handleLinkClick}>Education</Link></li>
-          <li><Link to="/recommendations" className={location.pathname === '/recommendations' ? 'active' : ''} onClick={handleLinkClick}>Recommendations</Link></li>
-          <li><Link to="/articles" className={location.pathname === '/articles' ? 'active' : ''} onClick={handleLinkClick}>Articles</Link></li>
-          <li><Link to="/contact" className={location.pathname === '/contact' ? 'active' : ''} onClick={handleLinkClick}>Contact</Link></li>
+          <li>
+            <Link
+              to="/"
+              className={location.pathname === '/' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              About
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/projects"
+              className={location.pathname === '/projects' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Programs
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/experience"
+              className={location.pathname === '/experience' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Experience
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/toolkit"
+              className={location.pathname === '/toolkit' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Tools & Templates
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/certifications"
+              className={location.pathname === '/certifications' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Certifications
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/education"
+              className={location.pathname === '/education' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Education
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/recommendations"
+              className={location.pathname === '/recommendations' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Recommendations
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/articles"
+              className={location.pathname === '/articles' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Insights
+            </Link>
+          </li>
+
+          <li>
+            <Link
+              to="/contact"
+              className={location.pathname === '/contact' ? 'active' : ''}
+              onClick={handleLinkClick}
+            >
+              Contact
+            </Link>
+          </li>
         </ul>
       </div>
     </nav>

@@ -12,6 +12,19 @@ body {
   background-color: #fafafa;
 }
 
+:root{
+  --text:#2c3e50;
+  --muted:#666;
+  --border:#e5e5e5;
+  --bg:#ffffff;
+  --card:#f8f9fa;
+
+  /* L&D / corporate accent */
+  --accent:#0f4c81;
+  --accent-dark:#0b3a63;
+  --accent-soft:var(--accent-soft);
+}
+
 .app {
   min-height: 100vh;
   display: flex;
@@ -205,16 +218,16 @@ body {
 }
 
 /* Featured Presentation */
-.featured-presentation {
-  display: grid;
-  grid-template-columns: 400px 1fr;
-  gap: 3rem;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  padding: 3rem;
-  border-radius: 12px;
-  margin: 3rem 0;
-  align-items: center;
-  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+.featured-presentation{
+  display:grid;
+  grid-template-columns:400px 1fr;
+  gap:3rem;
+  background:linear-gradient(135deg,var(--accent) 0%,var(--accent-dark) 100%);
+  padding:3rem;
+  border-radius:12px;
+  margin:3rem 0;
+  align-items:center;
+  box-shadow:0 10px 30px rgba(15,76,129,0.25);
 }
 
 .presentation-thumbnail {
@@ -241,11 +254,11 @@ body {
   margin-bottom: 0.5rem;
 }
 
-.presentation-subtitle {
-  color: #ffd700;
-  font-size: 1.1rem;
-  font-weight: 600;
-  margin-bottom: 1.5rem;
+.presentation-subtitle{
+  color:rgba(255,255,255,0.85);
+  font-size:1.05rem;
+  font-weight:600;
+  margin-bottom:1.5rem;
 }
 
 .presentation-description {
@@ -258,7 +271,7 @@ body {
 .presentation-button {
   display: inline-block;
   background: #ffffff;
-  color: #667eea;
+  color: var(--accent);
   padding: 1rem 2.5rem;
   border-radius: 6px;
   text-decoration: none;
@@ -268,11 +281,11 @@ body {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.presentation-button:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-  background: #ffd700;
-  color: #2c3e50;
+.presentation-button:hover{
+  transform:translateY(-2px);
+  box-shadow:0 6px 20px rgba(0,0,0,0.2);
+  background:rgba(255,255,255,0.92);
+  color:var(--accent-dark);
 }
 
 .section-divider {
@@ -288,7 +301,7 @@ body {
   display: block;
   width: 100px;
   height: 3px;
-  background: #667eea;
+  background: var(--accent);
   margin: 1rem auto 0;
   border-radius: 2px;
 }
@@ -304,7 +317,7 @@ body {
   background: #f8f9fa;
   padding: 2.5rem;
   border-radius: 8px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid var(--accent);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -353,7 +366,7 @@ body {
   content: "✓";
   position: absolute;
   left: 0;
-  color: #667eea;
+  color: var(--accent);
   font-weight: bold;
 }
 
@@ -387,7 +400,7 @@ body {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: #667eea;
+  background: var(--accent);
   border: 3px solid #ffffff;
 }
 
@@ -398,7 +411,7 @@ body {
 }
 
 .timeline-content h3 {
-  color: #667eea;
+  color: var(--accent);
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
@@ -430,8 +443,8 @@ body {
 }
 
 .skill-tag {
-  background: #e8eaf6;
-  color: #667eea;
+  background: var(--accent-soft);
+  color: var(--accent);
   padding: 0.3rem 0.8rem;
   border-radius: 4px;
   font-size: 0.85rem;
@@ -460,7 +473,7 @@ body {
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 8px;
-  border-top: 4px solid #667eea;
+  border-top: 4px solid var(--accent);
 }
 
 .info-card h3 {
@@ -470,7 +483,7 @@ body {
 }
 
 .card-institution {
-  color: #667eea;
+  color: var(--accent);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -505,7 +518,7 @@ body {
   background: #f8f9fa;
   padding: 1.5rem;
   border-radius: 8px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid var(--accent);
 }
 
 .cert-item h3 {
@@ -540,7 +553,7 @@ body {
   background: #f8f9fa;
   padding: 2.5rem;
   border-radius: 8px;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid var(--accent);
 }
 
 .recommendation-text {
@@ -563,7 +576,7 @@ body {
 }
 
 .recommendation-author .company {
-  color: #667eea;
+  color: var(--accent);
   font-weight: 600;
 }
 
@@ -578,7 +591,7 @@ body {
   background: #f8f9fa;
   padding: 2rem;
   border-radius: 8px;
-  border-top: 4px solid #667eea;
+  border-top: 4px solid var(--accent);
 }
 
 .article-card h2 {
@@ -607,15 +620,15 @@ body {
 }
 
 .tag {
-  background: #e8eaf6;
-  color: #667eea;
+  background: var(--accent-soft);
+  color: var(--accent);
   padding: 0.3rem 0.8rem;
   border-radius: 4px;
   font-size: 0.85rem;
 }
 
 .article-link {
-  color: #667eea;
+  color: var(--accent);
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
@@ -641,7 +654,7 @@ body {
 
 .cta-button {
   display: inline-block;
-  background: #667eea;
+  background: var(--accent);
   color: #ffffff;
   padding: 1rem 2rem;
   border-radius: 4px;
@@ -651,7 +664,7 @@ body {
 }
 
 .cta-button:hover {
-  background: #5568d3;
+  background: var(--accent-dark);
 }
 
 /* Contact */
@@ -671,7 +684,7 @@ body {
   padding: 2rem;
   border-radius: 8px;
   text-align: center;
-  border-top: 4px solid #667eea;
+  border-top: 4px solid var(--accent);
 }
 
 .contact-card h2 {
@@ -689,7 +702,7 @@ body {
 }
 
 .contact-card a:hover {
-  color: #667eea;
+  color: var(--accent);
 }
 
 .contact-note {
@@ -881,7 +894,7 @@ body {
   background: #f8f9fa;
   border-radius: 8px;
   overflow: hidden;
-  border-top: 3px solid #667eea;
+  border-top: 3px solid var(--accent);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -895,7 +908,7 @@ body {
   height: 150px;
   overflow: hidden;
   cursor: pointer;
-  background: #e8eaf6;
+  background: var(--accent-soft);
 }
 
 .cert-thumbnail img {
@@ -940,7 +953,7 @@ body {
 }
 
 .cert-issuer {
-  color: #667eea;
+  color: var(--accent);
   font-size: 0.85rem;
   font-weight: 600;
   margin-bottom: 0.3rem;
@@ -954,7 +967,7 @@ body {
 
 .cert-verify {
   display: inline-block;
-  color: #667eea;
+  color: var(--accent);
   text-decoration: none;
   font-size: 0.85rem;
   font-weight: 600;
@@ -1013,7 +1026,7 @@ body {
   position: absolute;
   top: 1rem;
   right: 1rem;
-  background: #667eea;
+  background: var(--accent);
   color: #ffffff;
   border: none;
   width: 40px;

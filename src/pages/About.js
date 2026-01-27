@@ -7,23 +7,31 @@ function About() {
       <AnimatedBackground />
       <div className="about-container">
         <div className="about-photo">
-          <img src={`${process.env.PUBLIC_URL}/images/profile_photo.png`} alt="Joshua Agyekum" />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/profile_photo.png`}
+            alt="Joshua Agyekum - Learning & Development"
+          />
         </div>
         <div className="about-content">
           <h1>Joshua Agyekum</h1>
-          <p className="subtitle">Instructional Designer</p>
+          <p className="subtitle">Learning & Development Specialist</p>
+
           <p className="bio">
-            I'm an instructional designer with 5+ years of experience building learning programs that drive real business results. Whether it's helping teams master advanced tools, supporting sales enablement with scalable programs, or simplifying complex systems for end users, I create learner-first solutions that are both strategic and actionable.
+            I’m a Learning & Development professional with 5+ years of experience designing programs that improve performance and drive measurable business results. From onboarding and enablement to tool adoption and systems training, I build learner-first solutions that are practical, scalable, and aligned to real workplace needs.
           </p>
+
           <p className="bio">
-            I thrive in cross functional spaces, partnering with Product, Marketing, Engineering, and Sales to make sure training isn't just informative, but impactful. As an Instructional Designer at Tofflon Joy, I design learning experiences that enhance product knowledge, consultative selling skills, and operational excellence across our machinery and turnkey solutions portfolio.
+            I thrive in cross-functional environments, partnering with Product, Marketing, Engineering, and Sales to ensure learning is not just informative, but impactful. In my current role at Tofflon Joy, I develop enablement experiences that strengthen product knowledge, consultative selling skills, and operational excellence across our machinery and turnkey solutions portfolio.
           </p>
+
           <p className="bio">
-            At JOMACS, I built adaptive learning systems that increased student engagement by 40%. At Alo7, I developed interactive STEM modules that boosted engagement by 75% through immersive 3D educational content.
+            Previously, at JOMACS I built adaptive learning systems that increased learner engagement by 40%. At Alo7, I developed interactive STEM learning experiences that boosted engagement by 75% using immersive 3D content and strong instructional structure.
           </p>
-           <p className="bio">
-            My approach is collaborative, data informed, and learner-focused. I'm not just here to make content, I'm here to move the needle, build confidence, and make sure people walk away actually knowing how to do the job or task at hand.
+
+          <p className="bio">
+            My approach is collaborative, data-informed, and performance-focused. I don’t just create content — I identify what people need to do, design learning that helps them do it, and measure whether it worked.
           </p>
+
           <div className="social-links">
             <a href="https://www.linkedin.com/in/joshua-agyekum/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             <a href="https://github.com/Kofijoo" target="_blank" rel="noopener noreferrer">GitHub</a>
