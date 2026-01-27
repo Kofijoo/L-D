@@ -14,7 +14,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router basename="/Instructional_Design_Portfolio">
+    <Router basename={process.env.REACT_APP_BASENAME}>
       <div className="app">
         <Navigation />
         <Routes>
