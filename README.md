@@ -1,10 +1,10 @@
-# Joshua Agyekum - Instructional Designer Portfolio
+# Joshua Agyekum - Learning & Development Portfolio
 
-A modern, responsive React portfolio showcasing expertise in instructional design, educational technology, and learning experience development.
+A modern, responsive React portfolio showcasing expertise in instructional design, learning experience design, and educational technology development.
 
 ## 🌐 Live Demo
 
-**Portfolio Website:** [https://kofijoo.github.io/Instructional_Design_Portfolio](https://kofijoo.github.io/Instructional_Design_Portfolio)
+**Portfolio Website:** [https://kofijoo.github.io/L-D](https://kofijoo.github.io/L-D)
 
 ## 👨‍💼 About
 
