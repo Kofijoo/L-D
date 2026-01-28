@@ -58,7 +58,7 @@ function Certifications() {
           type: "Certification",
           image: "cert_data_analyst_0001.jpg",
           link: "https://verify.w3schools.com/1Q0JFTPIG7"
-        }
+        },
         {
           name: "HTML Developer",
           issuer: "W3Schools",
