@@ -12,7 +12,7 @@ M.Ed. in Educational Technology with Norwegian language proficiency (B1). Specia
 - **Norwegian Language:** B1 certified ([Verify Official Results](https://app.vitnemalsportalen.no/vp/shared/CB4FE2E65C384FFD9D37D41C780F362A))
 - **Email:** joshuaagyekum21@gmail.com
 - **Phone:** +47 463 99 384
-- **Portfolio:** [https://kofijoo.github.io/Instructional_Design_Portfolio](https://kofijoo.github.io/Instructional_Design_Portfolio)
+- **Portfolio:** [https://kofijoo.github.io/L-D](https://kofijoo.github.io/L-D)
 
 ---
 
@@ -453,7 +453,7 @@ Facilitated STEM learning through creative and visual teaching methodologies. De
 ## 🔗 Professional Links & Verification
 
 ### Portfolio & Code Repositories
-- **Live Portfolio:** [https://kofijoo.github.io/Instructional_Design_Portfolio](https://kofijoo.github.io/Instructional_Design_Portfolio)
+- **Live Portfolio:** [https://kofijoo.github.io/L-D](https://kofijoo.github.io/L-D)
 - **GitHub Profile:** [https://github.com/Kofijoo](https://github.com/Kofijoo)
 - **LinkedIn Profile:** [https://www.linkedin.com/in/joshua-agyekum](https://www.linkedin.com/in/joshua-agyekum)
 
