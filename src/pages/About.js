@@ -8,7 +8,7 @@ function About() {
       <div className="about-container">
         <div className="about-photo">
           <img
-            src={`${process.env.PUBLIC_URL}/images/profile_photo.png`}
+            src={`${process.env.PUBLIC_URL}/images/slate_blue_04.png`}
             alt="Joshua Agyekum - Learning & Development"
           />
         </div>
