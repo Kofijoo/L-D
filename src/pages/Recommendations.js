@@ -4,22 +4,7 @@ import AnimatedBackground from '../components/AnimatedBackground';
 function Recommendations() {
   const [selectedDoc, setSelectedDoc] = useState(null);
 
-  const recommendations = [
-    {
-      name: "Dr. Sarah Chen",
-      title: "Director of Learning & Development",
-      company: "JOMACS Tech Academy",
-      text:
-        "Joshua strengthened our learning programs in a meaningful way. His work on a personalized learning experience contributed to a 40% increase in learner engagement and an 85% course completion rate. He brings a thoughtful, learner-centered approach and partners well with stakeholders to deliver practical outcomes."
-    },
-    {
-      name: "Michael Zhang",
-      title: "Head of Educational Technology",
-      company: "Alo7 Education",
-      text:
-        "Working with Joshua on our STEM learning experience was excellent. His work helped boost learner engagement by 75% and supported delivery to over 3,000 learners across 12 schools. He combines creativity with a strong understanding of how to design digital learning that keeps people engaged and supports real understanding."
-    }
-  ];
+  const recommendations = [];
 
   // Keep this list focused on identity/education/language documents that employers may ask to verify.
   const officialDocs = [

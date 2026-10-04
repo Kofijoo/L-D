@@ -17,15 +17,11 @@ function About() {
           <p className="subtitle">Learning & Development Specialist</p>
 
           <p className="bio">
-            I’m a Learning & Development professional with 5+ years of experience designing programs that improve performance and drive measurable business results. From onboarding and enablement to tool adoption and systems training, I build learner-first solutions that are practical, scalable, and aligned to real workplace needs.
+            I’m a Learning & Development professional who designs programs that improve performance and drive measurable business results. From onboarding and enablement to tool adoption and systems training, I build learner-first solutions that are practical, scalable, and aligned to real workplace needs.
           </p>
 
           <p className="bio">
             I thrive in cross-functional environments, partnering with Product, Marketing, Engineering, and Sales to ensure learning is not just informative, but impactful. In my current role at Tofflon Joy, I develop enablement experiences that strengthen product knowledge, consultative selling skills, and operational excellence across our machinery and turnkey solutions portfolio.
-          </p>
-
-          <p className="bio">
-            Previously, at JOMACS I built adaptive learning systems that increased learner engagement by 40%. At Alo7, I developed interactive STEM learning experiences that boosted engagement by 75% using immersive 3D content and strong instructional structure.
           </p>
 
           <p className="bio">

@@ -31,10 +31,9 @@ function Education() {
       link: "https://app.vitnemalsportalen.no/vp/shared/CB4FE2E65C384FFD9D37D41C780F362A"
     },
     {
-      degree: "Bachelor of Education (Early Childhood Education)",
+      degree: "Bachelor of Education (Education)",
       institution: "University of Education, Winneba, Ghana",
       period: "2014–2018",
-      grade: "First Class Honours",
       highlights: [
         "Strong foundation in learning principles, facilitation, and learner support"
       ],

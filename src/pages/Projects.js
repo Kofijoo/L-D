@@ -71,68 +71,14 @@ function Projects() {
 
   const projects = [
     {
-      title: "Personalized Learning Program",
-      organization: "JOMACS",
-      period: "Jun 2024 - Jun 2025",
-      description:
-        "Built a learning experience that adjusted practice and support based on learner progress. The goal was to keep learners engaged and help facilitators understand where support was needed most.",
-      metrics: [
-        "Increased learner engagement by 40%",
-        "Reached an 85% completion rate",
-        "89% of learners reported improved understanding",
-        "Reduced facilitator support requests by 28%"
-      ]
-    },
-    {
-      title: "Interactive STEM Learning Experience",
-      organization: "Alo7",
-      period: "Jan 2020 - Feb 2021",
-      description:
-        "Worked with subject experts to turn difficult concepts into engaging, visual learning experiences. Designed for clarity, interaction, and stronger learner confidence.",
-      metrics: [
-        "Boosted learner engagement by 75%",
-        "92% learner satisfaction",
-        "Reduced time to understand key concepts by 35%",
-        "Adopted across 12 schools (3,000+ learners)"
-      ]
-    },
-    {
-      title: "Foundational Skills Program (Phonics)",
-      organization: "First Talk Education",
-      period: "Mar 2021 - Apr 2022",
-      description:
-        "Supported a digital learning approach that made practice consistent and easier for teachers and learners. Focused on simple learner journeys and clear reinforcement activities.",
-      metrics: [
-        "Improved phonics recognition by 45%",
-        "94% parent satisfaction",
-        "Reduced teacher preparation time by 60%",
-        "78% of learners reached proficiency early"
-      ]
-    },
-    {
       title: "Sales & Product Enablement Program",
       organization: "Tofflon Joy",
-      period: "Jul 2025 - Present",
+      period: "Jul 2025 – Present",
       description:
         "Designed an enablement program for sales and technical teams to build product confidence, strengthen customer conversations, and improve consistency in how solutions are presented.",
       metrics: [
-        "Designed 15+ learning modules and support resources",
-        "88% completion rate in the first quarter",
-        "82% reported increased confidence",
-        "Recognized internally for strong cross-team collaboration"
-      ]
-    },
-    {
-      title: "LMS-Ready Learning Activities (Interactive Practice)",
-      organization: "Multiple Projects",
-      period: "2020 - Present",
-      description:
-        "Built interactive learning activities that can be delivered through an LMS when needed. Focused on accessibility, ease of use, and clear learner feedback.",
-      metrics: [
-        "Deployed successfully across multiple LMS environments",
-        "High learner engagement (91%) across pilots",
-        "Reliable delivery across cohorts",
-        "Reduced development effort by 40% through reusable patterns"
+        "Designed learning modules and support resources for machinery and turnkey solutions portfolio",
+        "Supported cross-functional collaboration across sales and technical teams"
       ]
     }
   ];

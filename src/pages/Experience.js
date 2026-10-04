@@ -48,74 +48,10 @@ function Experience() {
       ]
     },
     {
-      title: "Learning Systems & Operations Support",
-      company: "JOMACS",
-      period: "Oct 2024 – Jun 2025",
-      location: "Alberta, Canada · Remote",
-      description:
-        "Supported the delivery and reliability of digital learning programs by improving the learning platform setup and release process. Focused on creating a smoother learner experience and reducing friction for facilitators and admins.",
-      skills: [
-        "Digital learning operations",
-        "LMS support mindset",
-        "Process improvement",
-        "Learner experience",
-        "Cross-team collaboration",
-        "Problem solving"
-      ]
-    },
-    {
-      title: "Learning Experience Designer",
-      company: "JOMACS",
-      period: "Jun 2024 – Sep 2024",
-      location: "Canada · Remote",
-      description:
-        "Designed learning experiences that increased learner engagement by 40%. Built structured practice and feedback into the learning journey and collaborated with internal partners to improve clarity, flow, and learner confidence.",
-      skills: [
-        "Learning design",
-        "Needs analysis",
-        "Assessment & practice design",
-        "Storyboarding",
-        "Learning evaluation mindset",
-        "Visual communication"
-      ]
-    },
-    {
-      title: "Learning Support & Content Development (Intern)",
-      company: "First Talk Education",
-      period: "Mar 2021 – Apr 2022",
-      location: "Changxing County, Zhejiang, China · Hybrid",
-      description:
-        "Supported the rollout of a foundational skills program by creating learner-friendly content and practice activities. Helped make learning consistent, engaging, and accessible for diverse learner needs.",
-      skills: [
-        "Content development",
-        "Facilitation support",
-        "Learner engagement",
-        "Inclusive learning mindset",
-        "Learning materials design",
-        "Collaboration"
-      ]
-    },
-    {
-      title: "STEM Learning Experience Designer",
-      company: "Alo7",
-      period: "Jan 2020 – Feb 2021",
-      location: "Ningbo, Zhejiang, China · Hybrid",
-      description:
-        "Worked with subject experts to create interactive STEM learning experiences that improved learner engagement by 75%. Focused on simplifying difficult concepts and building confidence through practice and interaction.",
-      skills: [
-        "Learning experience design",
-        "SME collaboration",
-        "Engagement-focused learning",
-        "Learning by doing",
-        "Digital learning",
-        "Clear communication"
-      ]
-    },
-    {
-      title: "Creative Learning Facilitator",
+      title: "Primary School Teacher",
       company: "Brainhill International School",
-      period: "2018 – 2019",
-      location: "Ghana",
+      period: "Apr 2017 – Mar 2019",
+      location: "Accra, Ghana · On-site",
       description:
         "Facilitated creative, project-based learning for primary learners. Designed sessions that encouraged participation, built confidence, and supported skill development through hands-on activities.",
       skills: [
