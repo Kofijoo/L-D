@@ -86,7 +86,7 @@ function Certifications() {
           // Add a link here if you have a public verification URL or a view-only document link.
         },
         {
-          name: "Norwegian Language Proficiency (B1–B2)",
+          name: "Norwegian Language Proficiency (B1, Listening B2)",
           issuer: "Kompetanse Norge (results / certificate)",
           type: "Language Credential"
           // Add verification link if available
